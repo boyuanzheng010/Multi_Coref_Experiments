@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -o "/home/bzheng12/hoi/pred_slurms/slurm-%j.out"
+#SBATCH -o "/home/user_id_1/hoi/pred_slurms/slurm-%j.out"
 #python predict.py train_spanbert_large_ml0_d1 Jun11_21-48-45_9000 ontonotes english 3
 #python predict.py train_spanbert_large_ml0_d1 Jun11_21-48-32_9000 friends english 3
 #python predict.py train_spanbert_large_ml0_d1 Jun13_16-42-51_3000 dialogue english 2

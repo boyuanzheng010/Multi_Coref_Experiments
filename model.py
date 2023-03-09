@@ -507,7 +507,7 @@ class CorefModel(nn.Module):
             predicted_clusters[antecedent_cluster_id].append(mention)
             mention_to_cluster_id[mention] = antecedent_cluster_id
 
-        # Added from Patrick's Modification
+        # Added from person_name_1's Modification
         for i, predicted_idx in enumerate(predicted_antecedents):
             # print(i, predicted_idx, predicted_idx == -2)
             if predicted_idx == -2:
