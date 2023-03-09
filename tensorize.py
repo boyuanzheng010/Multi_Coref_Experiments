@@ -58,22 +58,22 @@ class CorefDataProcessor:
         # Use Dialogue Dev Set
         # paths = {
         #         'trn': join(self.root_dir, f'data/{self.dataset+"_"+self.language}/train.{self.language}.{self.max_seg_len}.jsonlines'),
-        #         'dev': '/brtx/605-nvme2/bzheng12/hoi/data/dialogue_chinese/dev.chinese.512.jsonlines',
+        #         'dev': '/brtx/605-nvme2/user_id_1/hoi/data/dialogue_chinese/dev.chinese.512.jsonlines',
         #         'tst': join(self.root_dir, f'data/{self.dataset+"_"+self.language}/test.{self.language}.{self.max_seg_len}.jsonlines')
         # }
         # paths = {
         #         'trn': join(self.root_dir, f'data/{self.dataset+"_"+self.language}/train.{self.language}.{self.max_seg_len}.jsonlines'),
-        #         'dev': '/brtx/605-nvme2/bzheng12/hoi/data/dialogue_'+self.language+'/dev.'+self.language+'.512.jsonlines',
+        #         'dev': '/brtx/605-nvme2/user_id_1/hoi/data/dialogue_'+self.language+'/dev.'+self.language+'.512.jsonlines',
         #         'tst': join(self.root_dir, f'data/{self.dataset+"_"+self.language}/test.{self.language}.{self.max_seg_len}.jsonlines')
         # }
         # paths = {
         #         'trn': join(self.root_dir, f'data/{self.dataset+"_"+self.language}/train.{self.language}.{self.max_seg_len}.jsonlines'),
-        #         'dev': '/brtx/605-nvme2/bzheng12/hoi/data/dialogue_english/dev.english.512.jsonlines',
+        #         'dev': '/brtx/605-nvme2/user_id_1/hoi/data/dialogue_english/dev.english.512.jsonlines',
         #         'tst': join(self.root_dir, f'data/{self.dataset+"_"+self.language}/test.{self.language}.{self.max_seg_len}.jsonlines')
         # }
         # paths = {
         #         'trn': join(self.root_dir, f'data/{self.dataset+"_"+self.language}/train.{self.language}.{self.max_seg_len}.jsonlines'),
-        #         'dev': '/brtx/605-nvme2/bzheng12/hoi/data/dialogue_chinese/dev.chinese.512.jsonlines',
+        #         'dev': '/brtx/605-nvme2/user_id_1/hoi/data/dialogue_chinese/dev.chinese.512.jsonlines',
         #         'tst': join(self.root_dir, f'data/{self.dataset+"_"+self.language}/test.{self.language}.{self.max_seg_len}.jsonlines')
         # }
         # Corresponding Dev set with Train set
